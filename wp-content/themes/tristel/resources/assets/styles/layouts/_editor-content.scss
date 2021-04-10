@@ -1,0 +1,11 @@
+$selector: ".editor-content";
+
+#{$selector} {
+  &--narrow {
+    .container {
+      @include media-bp-md {
+        padding-right: 15%;
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+$selector: ".article";
+
+#{$selector} {
+  > .container {
+    @include media-bp-mobile {
+      padding: 0 12%;
+    }
+  }
+
+  &__banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: rem(300);
+    margin-bottom: rem(65);
+  }
+
+  &__header {
+    margin-bottom: rem(50);
+  }
+
+  &__date {
+    color: $brand-grey-dk;
+    font-size: rem(14);
+  }
+
+  ul,
+  p {
+    margin-bottom: rem(50);
+  }
+
+  &__btns {
+    .btn {
+      margin-right: rem(15);
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  a {
+    &:not(.btn) {
+      color: $brand-green;
+    }
+  }
+}

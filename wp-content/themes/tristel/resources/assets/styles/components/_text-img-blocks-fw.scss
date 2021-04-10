@@ -1,0 +1,19 @@
+$selector: ".text-img-blocks-fw";
+
+#{$selector} {
+  background-color: $brand-grey-md;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 50% 100%;
+
+  &__content {
+    padding-right: 50%;
+  }
+
+  &__title {
+    font-size: rem(34);
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 0;
+  }
+}

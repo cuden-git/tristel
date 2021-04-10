@@ -1,0 +1,7 @@
+$selector: ".location-map";
+
+#{$selector} {
+  &__map {
+    height: rem(350);
+  }
+}

@@ -1,0 +1,140 @@
+$selector: ".hero-carousel";
+
+#{$selector} {
+  position: relative;
+  background-color: $brand-grey-lt;
+
+  @include media-bp-mobile {
+    padding-bottom: rem(40);
+  }
+
+  &__slides {
+    width: 100%;
+  }
+
+  &__slide {
+    position: relative;
+
+    &::before {
+      @include media-bp-md {
+        content: "";
+        display: block;
+        pointer-events: none;
+        padding-bottom: 46%;
+      }
+    }
+
+    &-img {
+      @include media-bp-mobile {
+        height: rem(375);
+      }
+
+      @include media-bp-md {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+      }
+
+      img,
+      picture {
+        width: 100%;
+
+        @include media-bp-mobile {
+          height: rem(375);
+          object-fit: cover;
+        }
+      }
+    }
+
+    > .container {
+      @include media-bp-mobile {
+        padding-top: rem(40);
+        margin-bottom: rem(30);
+      }
+
+      @include media-bp-md {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    &-inner {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    &-title {
+      color: $brand-blue;
+      font-size: rem(24);
+      margin-bottom: rem(20);
+      text-align: center;
+
+      @include media-bp-md {
+        font-size: rem(46);
+        text-align: left;
+      }
+    }
+
+    &-text {
+      @extend %font-meta-normal;
+
+      font-size: rem(18);
+      font-weight: bold;
+      margin-bottom: rem(30);
+
+      @include media-bp-mobile {
+        text-align: center;
+      }
+    }
+  }
+
+  &__btns {
+    @include media-bp-mobile {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .btn {
+      @include media-bp-mobile {
+        margin-bottom: rem(10);
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      @include media-bp-md {
+        margin-right: rem(20);
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  &__controls {
+    text-align: center;
+
+    @include media-bp-md {
+      position: absolute;
+      display: flex;
+      bottom: rem(30);
+      transform: translateX(-50%);
+      left: 50%;
+    }
+
+    span {
+      font-size: rem(25);
+      cursor: pointer;
+
+      &:first-child {
+        margin-right: rem(20);
+      }
+    }
+  }
+}

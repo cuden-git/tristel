@@ -1,0 +1,14 @@
+$selector: ".brands-cat-grid";
+
+#{$selector} {
+  &__cell {
+    background-color: $brand-black1;
+  }
+
+  &__title {
+    color: $white;
+    font-size: rem(14);
+    line-height: 1;
+    padding: rem(10) 0 rem(10) rem(20);
+  }
+}

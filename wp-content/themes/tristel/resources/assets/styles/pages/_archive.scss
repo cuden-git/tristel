@@ -1,0 +1,49 @@
+$selector: ".news-grid";
+
+#{$selector} {
+  padding-top: rem(50);
+  padding-bottom: rem($page-content-top-padding);
+
+  &__bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: rem(30);
+
+    &-count {
+      margin-bottom: 0;
+      font-size: rem(12);
+      color: $brand-grey-dk;
+    }
+  }
+
+  &__items {
+    margin-bottom: rem(34);
+  }
+
+  @include grid-cells($selector);
+
+  &__cell {
+    &-content {
+      padding: rem(20);
+    }
+
+    &-date {
+      color: $brand-grey-dk;
+      font-size: rem(12);
+      margin-bottom: rem(10);
+    }
+
+    &-title {
+      color: $brand-black1;
+      font-size: rem(18);
+      margin-bottom: rem(5);
+    }
+
+    &-cta {
+      color: $brand-green;
+      font-size: rem(14);
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,98 @@
+2021-02-17T14:02:34+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST) in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/App.php on line 106
+
+2021-02-17T14:02:34+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST) in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/App.php on line 106
+
+2021-02-17T14:04:35+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST) in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/App.php on line 106
+
+2021-02-17T14:04:35+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST) in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/App.php on line 106
+
+2021-02-17T14:06:35+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST) in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/App.php on line 106
+
+2021-02-17T14:06:35+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST) in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/App.php on line 106
+
+2021-02-17T14:12:31+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST) in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/App.php on line 106
+
+2021-02-17T14:12:31+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST) in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/App.php on line 106
+
+2021-02-17T14:12:45+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST) in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/App.php on line 106
+
+2021-02-17T15:33:05+00:00 CRITICAL Uncaught Error: Class 'App' not found in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:245
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php(286): country_site_redirect()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(730): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(58): locate_template('../app/custom-f...', true, true)
+#4 [internal function]: {closure}('../app/custom-f...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(61): array_map(Object(Closure), Array)
+#6 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(514): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): require_once('/Applications/M...')
+#8 /Appl in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 245
+
+2021-02-17T15:33:09+00:00 CRITICAL Uncaught Error: Class 'App' not found in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:245
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php(286): country_site_redirect()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(730): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(58): locate_template('../app/custom-f...', true, true)
+#4 [internal function]: {closure}('../app/custom-f...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(61): array_map(Object(Closure), Array)
+#6 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(514): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): require_once('/Applications/M...')
+#8 /Appl in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 245
+
+2021-02-17T15:33:10+00:00 CRITICAL Uncaught Error: Class 'App' not found in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:245
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php(286): country_site_redirect()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(730): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(58): locate_template('../app/custom-f...', true, true)
+#4 [internal function]: {closure}('../app/custom-f...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(61): array_map(Object(Closure), Array)
+#6 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(514): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): require_once('/Applications/M...')
+#8 /Appl in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 245
+
+2021-02-17T15:34:53+00:00 CRITICAL Uncaught Error: Class 'Controllers\App' not found in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:245
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php(286): country_site_redirect()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(730): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(58): locate_template('../app/custom-f...', true, true)
+#4 [internal function]: {closure}('../app/custom-f...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(61): array_map(Object(Closure), Array)
+#6 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(514): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): require_once('/Applications/M.. in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 245
+
+2021-02-17T15:34:55+00:00 CRITICAL Uncaught Error: Class 'Controllers\App' not found in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:245
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php(286): country_site_redirect()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(730): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(58): locate_template('../app/custom-f...', true, true)
+#4 [internal function]: {closure}('../app/custom-f...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(61): array_map(Object(Closure), Array)
+#6 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(514): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): require_once('/Applications/M.. in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 245
+
+2021-02-17T15:34:55+00:00 CRITICAL Uncaught Error: Class 'Controllers\App' not found in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:245
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php(286): country_site_redirect()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(730): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(58): locate_template('../app/custom-f...', true, true)
+#4 [internal function]: {closure}('../app/custom-f...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(61): array_map(Object(Closure), Array)
+#6 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(514): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): require_once('/Applications/M.. in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 245
+
+2021-02-17T15:34:57+00:00 CRITICAL Uncaught Error: Class 'Controllers\App' not found in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:245
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php(286): country_site_redirect()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(730): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(58): locate_template('../app/custom-f...', true, true)
+#4 [internal function]: {closure}('../app/custom-f...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(61): array_map(Object(Closure), Array)
+#6 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(514): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): require_once('/Applications/M.. in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 245
+

@@ -1,0 +1,69 @@
+$selector: ".team-carousel";
+
+#{$selector} {
+  &__wrap {
+    @include media-bp-mobile {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  &__slides {
+    margin-bottom: rem(70);
+  }
+
+  &__slide {
+    &-inner {
+      padding: 0 rem(10);
+
+      @include media-bp-md {
+        padding: 0 rem(25);
+      }
+    }
+
+    &-img {
+      margin-bottom: rem(20);
+
+      > div {
+        position: relative;
+        padding-bottom: 100%;
+      }
+
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    &-title {
+      font-size: rem(24);
+      color: $brand-black1;
+      margin-bottom: rem(10);
+    }
+
+    &-subtitle {
+      color: $brand-grey-dk;
+      font-size: rem(12);
+      text-align: center;
+    }
+
+    &-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @include carousel-controls(true);
+
+  &__cta {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: auto;
+  }
+}

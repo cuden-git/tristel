@@ -1,0 +1,72 @@
+$selector: ".modal";
+
+#{$selector} {
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba($brand-grey-dk, 0.5);
+  z-index: 1;
+
+  &--active {
+    display: flex;
+  }
+
+  &--loading {
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-image: url(../images/loading.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      z-index: 1;
+    }
+
+    #{$selector}__content {
+      transform: scale(0);
+    }
+  }
+
+  &__close {
+    position: absolute;
+    top: rem(20);
+    right: rem(20);
+    color: $white;
+    font-size: rem(16);
+    cursor: pointer;
+  }
+
+  &__content {
+    position: relative;
+    width: rem(600);
+    max-width: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+    background-color: $brand-black1;
+    padding: rem(60) rem(40);
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+    transform: scale(1);
+
+    .dom-loaded & {
+      opacity: 1;
+    }
+
+    @include line-title($selector, rem(24), rem(30));
+
+    color: $white;
+  }
+
+  &__logo {
+    display: block;
+    margin: 0 auto rem(30) auto;
+  }
+}

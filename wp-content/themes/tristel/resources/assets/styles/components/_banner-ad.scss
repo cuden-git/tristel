@@ -1,0 +1,20 @@
+$selector: ".banner-ad";
+
+#{$selector} {
+  display: flex;
+  flex-direction: column;
+  background: url("../images/banner-ad-bl.jpg") left bottom no-repeat, url("../images/banner-ad-tr.jpg") right top no-repeat;
+  background-color: $white;
+  background-size: 40%;
+  padding: rem(55) rem(40);
+  box-shadow: 0 0 rem(10) rem(5) rgba($brand-grey-md, 0.5);
+
+  &__title {
+    font-size: rem(28);
+    margin-bottom: rem(10);
+  }
+
+  p {
+    margin-bottom: rem(30);
+  }
+}

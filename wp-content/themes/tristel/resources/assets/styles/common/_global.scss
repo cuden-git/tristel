@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: #{$base-font-size}px;
+}
+
+body {
+  @extend %font-opensans-normal;
+
+  color: $body-font-colour;
+
+  &.nav-open {
+    @include media-bp-mobile {
+      overflow: hidden;
+    }
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @extend %font-meta-pro-normal;
+
+  font-weight: bold;
+}
+
+h1 {
+  font-size: rem(26);
+}
+
+h2 {
+  font-size: rem(24);
+}
+
+h3 {
+  font-size: rem(22);
+}
+
+h4 {
+  font-size: rem(20);
+}
+
+h5 {
+  font-size: rem(18);
+}
+
+h6 {
+  font-size: rem(16);
+}
+
+a {
+  color: $brand-green;
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 rem(20);
+
+  @include media-bp-md {
+    padding: 0;
+  }
+}
+/* stylelint-disable */
+// .page-title {
+//   position: relative;
+//   padding-bottom: rem(30);
+//   font-size: rem(46);
+//   margin-bottom: rem(50);
+//   text-align: center;
+
+//   &::after {
+//     content: "";
+//     position: absolute;
+//     left: 50%;
+//     bottom: 0;
+//     transform: translateX(-50%);
+//     background-color: $brand-green;
+//     width: rem(100);
+//     height: rem(5);
+//   }
+
+//   &--left {
+//     text-align: left;
+
+//     &::after {
+//       left: 0;
+//       transform: translateX(0);
+//     }
+//   }
+// }
+
+
+// .page-section {
+//   padding: rem(100) 0;
+
+//   .section-title {
+//     text-align: center;
+//     color: $brand-grey-dk;
+//     font-size: rem(14);
+
+//     &--left {
+//       text-align: left;
+//     }
+//   }
+// }
+/* stylelint-enable */
+
+$selector: ".page";
+
+#{$selector} {
+  @include line-title($selector, rem(46), rem(50));
+
+  &-section {
+    padding: rem(60) 0;
+
+    @include media-bp-mobile {
+      padding: rem(100) 0;
+    }
+
+    .section-title {
+      @include small-title;
+    }
+
+    &--grey {
+      background-color: $brand-grey-md;
+    }
+  }
+
+  &-padding {
+    &-top {
+      padding-top: rem($page-content-top-padding);
+    }
+
+    &-bottom {
+      padding-bottom: rem($page-content-top-padding);
+    }
+  }
+
+  &-content {
+    .woocommerce-page & {
+      padding-top: rem($page-content-top-padding);
+      padding-bottom: rem($page-content-top-padding);
+    }
+
+    p {
+      margin-bottom: rem($paragraph-margin-bottom);
+    }
+  /* stylelint-disable */
+    .page-content__main {
+      
+    }
+  /* stylelint-enable */
+  }
+
+  &-maincol {
+    @include media-bp-mobile {
+      padding-bottom: rem(50);
+    }
+  }
+
+  &-sidebar {
+    @include media-bp-md {
+      padding-left: rem(80);
+    }
+  }
+
+  &-intro {
+    padding-bottom: rem(50);
+
+    &--active {
+      #{$selector}-intro__excerpt {
+        display: none;
+      }
+
+      #{$selector}-intro__full {
+        display: block;
+      }
+    }
+
+    &__full {
+      display: none;
+    }
+
+    &__trigger {
+      cursor: pointer;
+      color: $brand-green;
+    }
+  }
+
+  &__pagination {
+    @include pagination($selector);
+  }
+}
+
+$selector: ".single";
+
+.single {
+  article {
+    > .container {
+      @include media-bp-md {
+        padding: 0 15% rem($page-content-top-padding) 15%;
+      }
+    }
+  }
+
+  &-tristel-resources {
+    .main {
+      > .container {
+        padding-top: rem($page-content-top-padding);
+        padding-bottom: rem($page-content-top-padding);
+      }
+    }
+  }
+}

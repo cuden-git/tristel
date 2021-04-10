@@ -1,0 +1,29 @@
+2021-02-16T15:22:57+00:00 CRITICAL Uncaught Error: Call to a member function remove_control() on null in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/setup.php:153
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(287): App\{closure}(Object(WP_Customize_Manager))
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-customize-manager.php(933): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(287): WP_Customize_Manager->wp_loaded('')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/tristel/site/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/tristel/site/wp-se in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/setup.php on line 153
+
+2021-02-16T17:29:41+00:00 CRITICAL syntax error, unexpected 'I' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 268
+
+2021-02-16T17:29:42+00:00 CRITICAL syntax error, unexpected 'I' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 268
+
+2021-02-16T17:29:42+00:00 CRITICAL syntax error, unexpected 'I' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 268
+
+2021-02-16T17:29:43+00:00 CRITICAL syntax error, unexpected 'I' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 268
+
+2021-02-16T17:31:50+00:00 CRITICAL syntax error, unexpected '.25' (T_DNUMBER), expecting ',' or ')' in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 260
+
+2021-02-16T17:31:51+00:00 CRITICAL syntax error, unexpected '.25' (T_DNUMBER), expecting ',' or ')' in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 260
+
+2021-02-16T17:31:51+00:00 CRITICAL syntax error, unexpected '.25' (T_DNUMBER), expecting ',' or ')' in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 260
+
+2021-02-16T17:31:52+00:00 CRITICAL syntax error, unexpected '.25' (T_DNUMBER), expecting ',' or ')' in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 260
+
+2021-02-16T17:31:55+00:00 CRITICAL syntax error, unexpected '.25' (T_DNUMBER), expecting ',' or ')' in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 260
+

@@ -1,0 +1,21 @@
+$selector: ".grid-panels";
+
+#{$selector} {
+  @include grid-cells($selector);
+
+  &__cell-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $white;
+    font-size: rem(14);
+    padding: rem(15) rem(30);
+    background-color: $brand-black1;
+
+    &::after {
+      font-family: "Font Awesome 5 Free", sans-serif;
+      content: fa-content($fa-var-chevron-right);
+      color: $brand-green;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+2021-02-10T15:29:54+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Call to undefined function js_encode() in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/0a8f5be56a8b724939d6743bcf2e987e17b4fdac.php:2
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/PhpEngine.php(43): include()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+# in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/0a8f5be56a8b724939d6743bcf2e987e17b4fdac.php on line 2
+
+2021-02-10T19:12:59+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected '=' in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/0a8f5be56a8b724939d6743bcf2e987e17b4fdac.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/91d579fe371c2fd218d0479ac37f8db2e9a12d41.php(7): Illuminate\View\View->r in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/0a8f5be56a8b724939d6743bcf2e987e17b4fdac.php on line 3
+

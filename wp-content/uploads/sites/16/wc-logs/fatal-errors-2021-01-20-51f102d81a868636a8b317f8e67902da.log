@@ -1,0 +1,48 @@
+2021-01-20T08:26:40+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected ')' in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/3ae383416b8189ec8a5e3f43ef0f2558cd5d63b2.php:31
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/9ec9c47015cece6c971a5798da25e2f6d6cf0ac9.php(3): Illuminate\View\View-> in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/3ae383416b8189ec8a5e3f43ef0f2558cd5d63b2.php on line 31
+
+2021-01-20T08:26:43+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected ')' in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/3ae383416b8189ec8a5e3f43ef0f2558cd5d63b2.php:31
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/9ec9c47015cece6c971a5798da25e2f6d6cf0ac9.php(3): Illuminate\View\View-> in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/3ae383416b8189ec8a5e3f43ef0f2558cd5d63b2.php on line 31
+
+2021-01-20T08:26:47+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected ')' in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/3ae383416b8189ec8a5e3f43ef0f2558cd5d63b2.php:31
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/9ec9c47015cece6c971a5798da25e2f6d6cf0ac9.php(3): Illuminate\View\View-> in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/3ae383416b8189ec8a5e3f43ef0f2558cd5d63b2.php on line 31
+
+2021-01-20T08:26:50+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected ')' in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/3ae383416b8189ec8a5e3f43ef0f2558cd5d63b2.php:31
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/9ec9c47015cece6c971a5798da25e2f6d6cf0ac9.php(3): Illuminate\View\View-> in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/3ae383416b8189ec8a5e3f43ef0f2558cd5d63b2.php on line 31
+
+2021-01-20T08:26:55+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected ')' in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/3ae383416b8189ec8a5e3f43ef0f2558cd5d63b2.php:31
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/9ec9c47015cece6c971a5798da25e2f6d6cf0ac9.php(3): Illuminate\View\View-> in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/3ae383416b8189ec8a5e3f43ef0f2558cd5d63b2.php on line 31
+
+2021-01-20T08:26:57+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected ')' in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/3ae383416b8189ec8a5e3f43ef0f2558cd5d63b2.php:31
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/9ec9c47015cece6c971a5798da25e2f6d6cf0ac9.php(3): Illuminate\View\View-> in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/3ae383416b8189ec8a5e3f43ef0f2558cd5d63b2.php on line 31
+

@@ -1,0 +1,192 @@
+2021-01-24T16:30:27+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected 'bg_colour' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:23
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8): Ill in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 23
+
+2021-01-24T16:30:31+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected 'bg_colour' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:23
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8): Ill in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 23
+
+2021-01-24T16:31:47+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected 'bg_colour' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:23
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8): Ill in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 23
+
+2021-01-24T16:31:49+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected 'bg_colour' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:23
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8): Ill in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 23
+
+2021-01-24T16:31:55+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected 'bg_colour' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:23
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8): Ill in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 23
+
+2021-01-24T16:31:57+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected 'bg_colour' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:23
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8): Ill in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 23
+
+2021-01-24T16:34:01+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected 'bg_colour' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:23
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8): Ill in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 23
+
+2021-01-24T16:34:03+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected 'bg_colour' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:23
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8): Ill in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 23
+
+2021-01-24T16:39:38+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected 'bg_colour' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:24
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8): Ill in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 24
+
+2021-01-24T16:39:41+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected 'bg_colour' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:24
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8): Ill in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 24
+
+2021-01-24T16:40:57+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected 'bg_colour' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:24
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8): Ill in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 24
+
+2021-01-24T16:41:00+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected 'bg_colour' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:24
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8): Ill in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 24
+
+2021-01-24T16:50:28+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected 'bg_colour' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8): Ill in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 22
+
+2021-01-24T16:50:31+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected 'bg_colour' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8): Ill in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 22
+
+2021-01-24T16:53:20+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected 'btn_colours' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8): I in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 22
+
+2021-01-24T16:53:23+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected 'btn_colours' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8): I in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 22
+
+2021-01-24T16:56:36+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected 'btn_colours' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8): I in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 22
+
+2021-01-24T16:56:38+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected 'btn_colours' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8): I in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 22
+
+2021-01-24T17:06:31+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected 'btn_colours' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:23
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8): I in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 23
+
+2021-01-24T17:06:33+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected 'btn_colours' (T_STRING) in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:23
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8): I in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 23
+
+2021-01-24T17:07:49+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected '}', expecting ',' or ')' in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:23
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8):  in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 23
+
+2021-01-24T17:07:52+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected '}', expecting ',' or ')' in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:23
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8):  in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 23
+
+2021-01-24T17:07:57+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected '}', expecting ',' or ')' in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:23
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8):  in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 23
+
+2021-01-24T17:07:59+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: syntax error, unexpected '}', expecting ',' or ')' in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php:23
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->renderContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c09e1a3f04bb0e5bc4daceaaab3f8e053103246c.php(8):  in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c510c60d599bec9cf1cc26eae915c6c3aec3711f.php on line 23
+

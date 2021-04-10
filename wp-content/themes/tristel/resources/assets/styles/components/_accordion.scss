@@ -1,0 +1,11 @@
+$selector: ".accordion";
+
+#{$selector} {
+  &__group {
+    &-content {
+      overflow: hidden;
+      transition: height 0.5s;
+      height: 0;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+fieldset {
+  border: none;
+}
+
+input {
+  line-height: 1;
+
+  textarea,
+  &[type=password],
+  &[type=email],
+  &[type=text] {
+    border: rem(1) solid $brand-grey-dk;
+    padding: rem(10) rem(15);
+
+    &::placeholder {
+      color: $brand-grey-dk;
+      font-size: rem(12);
+    }
+  }
+
+  &[type=submit] {
+    border: none;
+    background-color: $brand-green;
+  }
+}
+
+select {
+  @extend %font-meta-pro-normal;
+
+  border: none;
+  border-bottom: rem(2) solid $brand-black1;
+  padding: rem(10) 0;
+  appearance: none;
+  border-radius: 0;
+  padding-right: rem(20);
+  background: transparent url(../images/down-arrow.svg) right rem(10) center no-repeat;
+  background-size: rem(10);
+
+  &:focus {
+    outline: none;
+  }
+}
+
+button {
+  border: none;
+
+  i {
+    font-size: rem(17);
+  }
+}

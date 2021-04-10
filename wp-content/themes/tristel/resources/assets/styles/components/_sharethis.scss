@@ -1,0 +1,80 @@
+$selector: ".sharethis";
+
+#{$selector} {
+  &-inline-share-buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .st-btn {
+      &[data-network] {
+        body & {
+          $gap: rem(12);
+
+          @extend %font-opensans-normal;
+
+          display: inline-flex;
+          font-size: rem(14);
+          font-weight: bold;
+          justify-content: flex-start;
+          align-items: center;
+          border-radius: rem(50);
+          padding: rem(15) rem(40);
+          text-transform: uppercase;
+          background-color: $white;
+          border: rem(1) solid $brand-black1;
+          line-height: 1;
+          color: $brand-black1;
+          max-width: none;
+          width: calc(50% - #{$gap});
+          height: auto;
+          margin: 0 0 $gap 0;
+
+          &::before {
+            font-family: "Font Awesome 5 Brands", sans-serif;
+            font-size: rem(20);
+            margin-right: rem(10);
+            color: $brand-black1;
+          }
+
+          > span {
+            display: inline;
+          }
+
+          &#{$selector} {
+            &-twitter {
+              &::before {
+                content: "\F099";
+              }
+            }
+
+            &-facebook {
+              &::before {
+                content: fa-content($fa-var-facebook-f);
+              }
+            }
+
+            &-email {
+              &::before {
+                content: fa-content($fa-var-envelope);
+                font-family: "Font Awesome 5 Free", sans-serif;
+              }
+            }
+
+            &-linkedin {
+              &::before {
+                content: fa-content($fa-var-linkedin);
+              }
+            }
+
+            &-whatsapp {
+              &::before {
+                content: fa-content($fa-var-whatsapp);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

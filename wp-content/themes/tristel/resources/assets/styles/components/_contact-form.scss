@@ -1,0 +1,70 @@
+$selector: ".contact-us";
+
+#{$selector} {
+  &__content {
+    padding-right: 11%;
+
+    .option-email,
+    .option-tel,
+    .option-address {
+      display: block;
+      margin-bottom: rem($paragraph-margin-bottom);
+    }
+  }
+
+  &__form {
+    background-color: $brand-grey-lt;
+    display: flex;
+    flex-direction: column;
+    padding: rem(50) 7%;
+
+    &-title {
+      margin-bottom: rem(15);
+      font-size: rem(24);
+    }
+
+    > div {
+      width: 100%;
+    }
+  }
+
+  label {
+    @extend %font-meta-pro-normal;
+    @extend %display-block;
+
+    font-size: rem(14);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: rem(15);
+  }
+
+  input {
+    &[type=email],
+    &[type=text] {
+      @extend %common-field-properties;
+    }
+
+    &[type=submit] {
+      width: 100%;
+    }
+  }
+
+  select {
+    @extend %common-field-properties;
+  }
+
+  textarea {
+    @extend %common-field-properties;
+  }
+
+  &__footer {
+    padding-top: rem(20);
+    font-size: rem(12);
+
+    a {
+      @extend %link-underline;
+
+      color: $brand-grey-dk;
+    }
+  }
+}

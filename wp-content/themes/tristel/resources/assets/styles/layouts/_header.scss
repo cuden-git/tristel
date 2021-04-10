@@ -1,0 +1,140 @@
+$selector: ".site-header";
+
+#{$selector} {
+  &--fixed {
+/* stylelint-disable */
+    #{$selector} {
+      // &__bottom {
+      //   position: fixed;
+      //   top: 0;
+      //   left: 0;
+      //   width: 100%;
+      //   border-bottom: rem(1) solid $brand-grey-md;
+      //   z-index: 1;
+      // }
+    }
+  }
+
+  ul {
+    @extend %no-bullet;
+  }
+
+  &--top {
+    background-color: $brand-black1;
+    padding: rem(7) 0;
+
+    > .container {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &--bottom {
+    position: sticky;
+    top: rem(-1);
+    padding: rem(25) 0 0 0;
+    background-color: $white;
+    border-bottom: rem(1) solid transparent;
+    transition: all 0.2s linear;
+    z-index: 1;
+
+    &--fixed {
+      left: 0;
+      width: 100%;
+      border-color: $brand-grey-md;
+      border-top: rem(1) solid $white;
+      z-index: 1;
+    }
+
+    > .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  &__logo {
+    position: relative;
+    z-index: 3;
+    width: rem(120);
+    padding-bottom: rem(25);
+
+    @include media-bp-md {
+      width: rem(120);
+    }
+  }
+
+  &__btns {
+    display: flex;
+    align-items: center;
+    flex-grow: 0;
+    padding-bottom: rem(25);
+
+    @include media-bp-md {
+      justify-content: space-between;
+    }
+
+    #{$selector}__nav-btn {
+      z-index: 3;
+      cursor: pointer;
+
+      @include media-bp-md {
+        display: none;
+      }
+    }
+
+    a {
+      margin-right: rem(20);
+      color: $brand-black1;
+      line-height: 1;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    .btn {
+      height: rem(50);
+
+      @include media-bp-mobile {
+        display: none;
+      }
+    }
+  }
+
+  &__basket {
+    position: relative;
+
+    &-count {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 50%;
+      left: 50%;
+      background-color: $brand-green;
+      color: $brand-black1;
+      border-radius: 50%;
+      line-height: 100%;
+      font-size: rem(12);
+      width: rem(24);
+      height: rem(24);
+    }
+  }
+
+  &__phone {
+    font-size: rem(24);
+    background-color: $brand-green;
+    padding: rem(8);
+
+    @include media-bp-md {
+      display: none;
+    }
+  }
+
+  &__search {
+    margin-right: rem(20);
+  }
+}
+
+/* stylelint-enable */

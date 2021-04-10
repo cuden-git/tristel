@@ -1,0 +1,55 @@
+2021-02-18T20:15:02+00:00 CRITICAL Uncaught Error: Call to undefined method App\Controllers\App::AllCountries() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:248
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php(297): country_site_redirect()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(730): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(58): locate_template('../app/custom-f...', true, true)
+#4 [internal function]: {closure}('../app/custom-f...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(61): array_map(Object(Closure), Array)
+#6 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(514): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): requ in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 248
+
+2021-02-18T20:15:03+00:00 CRITICAL Uncaught Error: Call to undefined method App\Controllers\App::AllCountries() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:248
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php(297): country_site_redirect()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(730): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(58): locate_template('../app/custom-f...', true, true)
+#4 [internal function]: {closure}('../app/custom-f...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(61): array_map(Object(Closure), Array)
+#6 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(514): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): requ in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 248
+
+2021-02-18T20:15:04+00:00 CRITICAL Uncaught Error: Call to undefined method App\Controllers\App::AllCountries() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:248
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php(297): country_site_redirect()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(730): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(58): locate_template('../app/custom-f...', true, true)
+#4 [internal function]: {closure}('../app/custom-f...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(61): array_map(Object(Closure), Array)
+#6 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(514): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): requ in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 248
+
+2021-02-18T20:15:05+00:00 CRITICAL Uncaught Error: Call to undefined method App\Controllers\App::AllCountries() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:248
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php(297): country_site_redirect()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(730): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(58): locate_template('../app/custom-f...', true, true)
+#4 [internal function]: {closure}('../app/custom-f...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(61): array_map(Object(Closure), Array)
+#6 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(514): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): requ in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 248
+
+2021-02-18T20:15:11+00:00 CRITICAL Uncaught Error: Call to undefined method App\Controllers\App::AllCountries() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:248
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php(297): country_site_redirect()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(730): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(58): locate_template('../app/custom-f...', true, true)
+#4 [internal function]: {closure}('../app/custom-f...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(61): array_map(Object(Closure), Array)
+#6 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(514): include('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): requ in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 248
+

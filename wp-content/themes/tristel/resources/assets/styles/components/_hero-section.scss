@@ -1,0 +1,42 @@
+$selector: ".hero-section";
+
+#{$selector} {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: rem(100) 0;
+
+  @include media-bp-md {
+    padding: rem(130) 0;
+  }
+
+  > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include media-bp-md {
+      padding: 0 10%;
+    }
+  }
+
+  &__subtitle,
+  &__title {
+    color: $white;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: rem(46);
+    border-top: rem(2) solid $white;
+    border-bottom: rem(2) solid $white;
+    padding: rem(35) rem(30);
+    margin-bottom: rem(25);
+  }
+
+  &__subtitle {
+    font-size: rem(28);
+    margin-bottom: rem(30);
+  }
+}

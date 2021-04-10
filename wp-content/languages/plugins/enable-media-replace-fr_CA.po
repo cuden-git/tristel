@@ -1,0 +1,153 @@
+# Translation of Plugins - Enable Media Replace - Stable (latest release) in French (Canada)
+# This file is distributed under the same license as the Plugins - Enable Media Replace - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-11-22 03:35:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr_CA\n"
+"Project-Id-Version: Plugins - Enable Media Replace - Stable (latest release)\n"
+
+#: views/notice.php:6
+msgid "Enable Media Replace is now compatible with ShortPixel!"
+msgstr "Enable Media Replace est maintenant compatible avec ShortPixel!"
+
+#: views/popup.php:179
+msgid "Custom Date"
+msgstr "Date personalisée"
+
+#: views/popup.php:174
+msgid "Keep the date %s(%s)%s"
+msgstr "Garder la date %s(%s)%s"
+
+#: views/notice.php:2
+msgid "Dismiss"
+msgstr "Rejeter"
+
+#: views/popup.php:175
+msgid "Set a Custom Date"
+msgstr "Définir la date personnalisée"
+
+#: views/popup.php:173
+msgid "Replace the date"
+msgstr "Replacer la date"
+
+#: views/popup.php:171
+msgid "When replacing the media, do you want to:"
+msgstr "Lors du remplacement du document, voulez-vous:"
+
+#: views/popup.php:159
+msgid "Date Options"
+msgstr "Options de date"
+
+#: views/popup.php:136
+msgid "Note: This option requires you to upload a file of the same type (%s) as the one you are replacing. The name of the attachment will stay the same (%s) no matter what the file you upload is called."
+msgstr "Note: Cet option nécesite que vous téléversiez un fichier ayant le même type (%s) que celui que vous remplacez. Le nom de la pièce jointe restera le même (%s) sans égard au nom du fichier téléversé."
+
+#: views/popup.php:121
+msgid "Replacement Options"
+msgstr "Options de remplacement"
+
+#: views/notice.php:11 views/popup.php:233
+msgid "More info"
+msgstr "Plus d'information"
+
+#: views/popup.php:229
+msgid "Get more Google love by compressing your site's images! Check out how much ShortPixel can save your site and get +50% credits when signing up as an Enable Media Replace user! Forever!"
+msgstr "Recevez plus d'amour de Google en compressant les images de votre site! Venez voir comment ShortPixel peut sauver votre site et recevez plus de 50% de crédit en devenant un utilisateur de Enable Media Replace! Pour toujours!"
+
+#: views/popup.php:220
+msgid "Optimize your images with ShortPixel, get +50% credits!"
+msgstr "Optimisez vos images avec ShortPixel, recevez plus de 50% de crédit!"
+
+#: views/popup.php:74
+msgid "NOTE: You are about to replace the media file \"%s\". There is no undo. Think about it!"
+msgstr "NOTE: Vous vous apprêtez a remplacer le fichier \"%s\". Vous ne pourrez pas revenir en arrière. Pensez-y bien!"
+
+#. Author URI of the plugin
+msgid "https://shortpixel.com"
+msgstr "https://shortpixel.com"
+
+#. Author of the plugin
+msgid "ShortPixel"
+msgstr "ShortPixel"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/enable-media-replace/"
+msgstr "https://wordpress.org/plugins/enable-media-replace/"
+
+#: views/notice.php:8
+msgid "<a href=\"https://shortpixel.com/wp/af/VKG6LYN28044\" target=\"_blank\">ShortPixel</a> is an image optimization plugin and if you have it activated, upon replacing an image in Enable Media Replace, the image will be also automatically optimized."
+msgstr "<a href=\"https://shortpixel.com/wp/af/VKG6LYN28044\" target=\"_blank\">ShortPixel</a> est une extension optimisant les images et si vous l'avez activée, les images remplacées avec Enable Media Replace seront automatiquement optimisées."
+
+#: classes/emr-plugin.php:364
+msgid "M j, Y @ H:i"
+msgstr "j M Y @ H:i"
+
+#: views/popup.php:72
+msgid "Choose Replacement Media"
+msgstr "Choisissez le média de remplacement"
+
+#: views/popup.php:203
+msgid "Cancel"
+msgstr "Annuler"
+
+#. Plugin Name of the plugin
+msgid "Enable Media Replace"
+msgstr "Enable Media Replace"
+
+#: views/upload.php:127
+msgid "File type does not meet security guidelines. Try another."
+msgstr "Le type de fichier ne répond pas aux exigences de sécurité. Essayez-en un autre."
+
+#: views/popup.php:202
+msgid "Upload"
+msgstr "Téléverser"
+
+#: views/popup.php:152
+msgid "Please note that if you upload a new image, only embeds/links of the original size image will be replaced in your posts."
+msgstr "Notez que si vous téléversez une nouvelle image, la taille des liens et cadres de l'image originale seront remplacés dans vos publications."
+
+#: views/popup.php:147
+msgid "Replace the file, use new file name and update all links"
+msgstr "Remplacer le fichier, utilisez un nouveau nom et mettre à jour tous les liens"
+
+#: views/popup.php:132
+msgid "Just replace the file"
+msgstr "Seulement remplacer le fichier"
+
+#: views/popup.php:78
+msgid "Choose a file to upload from your computer"
+msgstr "Chosissez un fichier à télécharger de votre ordinateur"
+
+#: views/popup.php:57
+msgid "Replace Media Upload"
+msgstr "Téléversement du fichier de remplacement"
+
+#: views/upload.php:11 views/popup.php:23
+msgid "You do not have permission to upload files."
+msgstr "Vous n'avez pas l'autorisation de téléverser des fichiers."
+
+#: classes/emr-plugin.php:367
+msgid "Revised"
+msgstr "Revisé"
+
+#: classes/emr-plugin.php:231 classes/emr-plugin.php:286
+msgid "To replace the current file, click the link and upload a replacement."
+msgstr "Pour remplacer la fichier actuel, cliquez sur le lien et téléversez un remplacement."
+
+#: classes/emr-plugin.php:231 classes/emr-plugin.php:286
+msgid "Upload a new file"
+msgstr "Téléverser un nouveau fichier"
+
+#: classes/emr-plugin.php:82 classes/emr-plugin.php:284
+#: classes/emr-plugin.php:317
+msgid "Replace media"
+msgstr "Remplacer le média"
+
+#. Description of the plugin
+msgid "Enable replacing media files by uploading a new file in the \"Edit Media\" section of the WordPress Media Library"
+msgstr "Activer le remplacement de fichier média en téléversant un nouveau fichier dans la section \"Modifier Médias\" de la bibliothèque de Médias de WordPress."

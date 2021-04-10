@@ -1,0 +1,29 @@
+$selector: ".text-img-blocks";
+
+#{$selector} {
+  &__img,
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__text {
+    @include media-bp-mobile {
+      padding-bottom: rem(50);
+    }
+
+    @include media-bp-lg {
+      padding-right: 16%;
+    }
+  }
+
+  &__copy {
+    font-size: rem(16);
+    margin-bottom: rem(50);
+  }
+
+  &__cta {
+    align-self: flex-start;
+  }
+}

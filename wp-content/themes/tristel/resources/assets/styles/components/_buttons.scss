@@ -1,0 +1,51 @@
+$selector: ".btn";
+
+#{$selector} {
+  @include btn;
+
+  &-icon {
+    @extend %button-icon;
+  }
+}
+
+$selector: ".nav-btn";
+
+#{$selector} {
+  display: flex;
+  flex-direction: column;
+  width: rem(25);
+
+  > span {
+    background-color: $brand-black1;
+    height: rem(4);
+    transition: 0.3s all;
+    transform-origin: 50%;
+
+    & + span {
+      margin-top: rem(5);
+    }
+  }
+
+  &--active {
+    > span {
+      background-color: $brand-green;
+      border-radius: rem(2);
+
+      & + span {
+        margin-top: 0;
+      }
+
+      &:nth-child(1) {
+        transform: rotate(45deg) translate(rem(-2), rem(3));
+      }
+
+      &:nth-child(2) {
+        opacity: 0;
+      }
+
+      &:nth-child(3) {
+        transform: rotate(-45deg) translate(rem(3), rem(-7));
+      }
+    }
+  }
+}

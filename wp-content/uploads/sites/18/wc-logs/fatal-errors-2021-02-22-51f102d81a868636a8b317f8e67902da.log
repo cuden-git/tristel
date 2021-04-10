@@ -1,0 +1,102 @@
+2021-02-22T09:12:17+00:00 CRITICAL Uncaught Error: Call to undefined function App\Controllers\AllSites() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/App.php:156
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/soberwp/controller/src/Controller.php(211): App\Controllers\App->generateHrefLang()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/soberwp/controller/src/Controller.php(94): Sober\Controller\Controller->__setDataFromMethods()
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/soberwp/controller/controller.php(69): Sober\Controller\Controller->__setData(Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(287): Sober\Controller\{closure}(Array, '/Applications/M...')
+#4 /Applications/MAMP/htdocs/tristel/site/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#5 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/filters.php(60): apply_filters('sage/templ in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/App.php on line 156
+
+2021-02-22T09:12:41+00:00 CRITICAL Uncaught Error: Call to undefined function App\Controllers\AllSites() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/App.php:156
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/soberwp/controller/src/Controller.php(211): App\Controllers\App->GenerateHrefLang()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/soberwp/controller/src/Controller.php(94): Sober\Controller\Controller->__setDataFromMethods()
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/soberwp/controller/controller.php(69): Sober\Controller\Controller->__setData(Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(287): Sober\Controller\{closure}(Array, '/Applications/M...')
+#4 /Applications/MAMP/htdocs/tristel/site/wp-includes/plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#5 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/filters.php(60): apply_filters('sage/templ in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/App.php on line 156
+
+2021-02-22T09:32:16+00:00 CRITICAL Uncaught Error: Call to undefined function action() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:354
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(730): require_once()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(58): locate_template('../app/custom-f...', true, true)
+#3 [internal function]: {closure}('../app/custom-f...')
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(61): array_map(Object(Closure), Array)
+#5 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(514): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/wp-load.php(37): require_once('/Applications/M...')
+#8 /Applications/MAMP/htdocs/tristel/s in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 354
+
+2021-02-22T09:34:16+00:00 CRITICAL Uncaught Error: Call to undefined function action() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:354
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(730): require_once()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(58): locate_template('../app/custom-f...', true, true)
+#3 [internal function]: {closure}('../app/custom-f...')
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(61): array_map(Object(Closure), Array)
+#5 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(514): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/wp-load.php(37): require_once('/Applications/M...')
+#8 /Applications/MAMP/htdocs/tristel/s in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 354
+
+2021-02-22T09:36:17+00:00 CRITICAL Uncaught Error: Call to undefined function action() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:354
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(730): require_once()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(58): locate_template('../app/custom-f...', true, true)
+#3 [internal function]: {closure}('../app/custom-f...')
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(61): array_map(Object(Closure), Array)
+#5 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(514): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/wp-load.php(37): require_once('/Applications/M...')
+#8 /Applications/MAMP/htdocs/tristel/s in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 354
+
+2021-02-22T09:38:18+00:00 CRITICAL Uncaught Error: Call to undefined function action() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:354
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(730): require_once()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(58): locate_template('../app/custom-f...', true, true)
+#3 [internal function]: {closure}('../app/custom-f...')
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(61): array_map(Object(Closure), Array)
+#5 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(514): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/wp-load.php(37): require_once('/Applications/M...')
+#8 /Applications/MAMP/htdocs/tristel/s in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 354
+
+2021-02-22T09:40:19+00:00 CRITICAL Uncaught Error: Call to undefined function action() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:354
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(730): require_once()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(58): locate_template('../app/custom-f...', true, true)
+#3 [internal function]: {closure}('../app/custom-f...')
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(61): array_map(Object(Closure), Array)
+#5 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(514): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/wp-load.php(37): require_once('/Applications/M...')
+#8 /Applications/MAMP/htdocs/tristel/s in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 354
+
+2021-02-22T09:42:19+00:00 CRITICAL Uncaught Error: Call to undefined function action() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:354
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(730): require_once()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(58): locate_template('../app/custom-f...', true, true)
+#3 [internal function]: {closure}('../app/custom-f...')
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(61): array_map(Object(Closure), Array)
+#5 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(514): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/wp-load.php(37): require_once('/Applications/M...')
+#8 /Applications/MAMP/htdocs/tristel/s in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 354
+
+2021-02-22T09:44:20+00:00 CRITICAL Uncaught Error: Call to undefined function action() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:354
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(730): require_once()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/template.php(676): load_template('/Applications/M...', true, Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(58): locate_template('../app/custom-f...', true, true)
+#3 [internal function]: {closure}('../app/custom-f...')
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/resources/functions.php(61): array_map(Object(Closure), Array)
+#5 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(514): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/wp-load.php(37): require_once('/Applications/M...')
+#8 /Applications/MAMP/htdocs/tristel/s in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 354
+

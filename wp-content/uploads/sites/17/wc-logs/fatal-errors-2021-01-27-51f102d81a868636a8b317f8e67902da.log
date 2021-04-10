@@ -1,0 +1,11 @@
+2021-01-27T20:19:27+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Post as array in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/wc-fncs.php:342
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-includes/rest-api/class-wp-rest-server.php(1050): wc_product_gallery(Object(WP_REST_Request))
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/rest-api/class-wp-rest-server.php(376): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/rest-api.php(339): WP_REST_Server->serve_request('/product-galler...')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#4 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /Applications/MAMP/htdocs/tristel/site/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#6 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp.php(388): do_action_ref_array('parse_request', Array)
+#7 /Applications/MAMP/ in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/wc-fncs.php on line 342
+

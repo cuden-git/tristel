@@ -1,0 +1,153 @@
+$selector: ".site-footer";
+
+#{$selector} {
+  &::before {
+    content: "";
+    background: url(../images/colour-block-strip.jpg) left top repeat;
+    display: block;
+    height: rem(300);
+  }
+
+  &__top {
+    padding-top: rem(100);
+    background: url(../images/tristel-footer.jpg) left bottom no-repeat;
+    background-size: rem(300);
+
+    .row {
+      &:first-child {
+        padding-bottom: rem(80);
+      }
+
+      &:last-child {
+        justify-content: flex-end;
+        padding-bottom: rem(20);
+
+        > div {
+          padding-bottom: rem(40);
+        }
+      }
+    }
+  }
+
+  ul {
+    @extend %no-bullet;
+  }
+
+  &__links {
+    display: flex;
+
+    @include media-bp-mobile {
+      flex-direction: column;
+    }
+
+    @include media-bp-md {
+      justify-content: flex-end;
+    }
+
+    > div {
+      @include media-bp-md {
+        padding-left: rem(50);
+
+        :first-child {
+          padding-left: 0;
+        }
+      }
+    }
+
+    h6 {
+      @extend %font-meta-normal;
+
+      font-size: rem(14);
+      margin-bottom: rem(25);
+    }
+
+    ul {
+      font-size: rem(14);
+    }
+
+    a {
+      color: $brand-grey-dk;
+    }
+  }
+
+  &__brand {
+    display: block;
+    margin-bottom: rem(20);
+  }
+
+  &__logos {
+    display: flex;
+
+    @include media-bp-mobile {
+      justify-content: space-between;
+      flex-wrap: nowrap;
+    }
+
+    @include media-bp-md {
+      justify-content: flex-end;
+    }
+
+    > a {
+      @include media-bp-mobile {
+        max-width: 48%;
+      }
+    }
+
+    img {
+      @include media-bp-md {
+        margin-left: rem(40);
+      }
+    }
+  }
+
+  &__bottom {
+    background-color: $brand-black1;
+    font-size: rem(12);
+    color: $white;
+    padding: rem(12) 0;
+
+    ul {
+      display: flex;
+      align-items: center;
+    }
+
+    li {
+      padding-right: rem(10);
+      padding-left: rem(10);
+      border-right: rem(1) solid $white;
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      &:last-child {
+        border: none;
+        padding-right: 0;
+      }
+    }
+
+    a {
+      color: $brand-grey-md;
+    }
+  }
+
+  &__items {
+    @include media-bp-mobile {
+      margin-bottom: rem(10);
+    }
+  }
+
+  &__to-top {
+    display: flex;
+    align-items: flex-end;
+    font-size: rem(12);
+    font-weight: bold;
+    cursor: pointer;
+
+    &::after {
+      font-family: "Font Awesome 5 Free", sans-serif;
+      content: fa-content($fa-var-caret-up);
+      margin-left: rem(20);
+    }
+  }
+}

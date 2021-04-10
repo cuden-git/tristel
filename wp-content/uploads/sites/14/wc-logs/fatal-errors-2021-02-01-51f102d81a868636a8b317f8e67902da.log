@@ -1,0 +1,154 @@
+2021-02-01T11:06:27+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/wc-product-functions.php:1046
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1960): wc_get_price_excluding_tax(NULL)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/wc-fncs.php(315): WC_Cart->get_product_price(NULL)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(287): ql_woocommerce_ajax_add_to_cart('')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Applications/MAMP/htdocs/tristel/site/wp-admin/admin-ajax.php(176): do_action('wp_ajax_ql_wooc...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/wc-product-functions.php on line 1046
+
+2021-02-01T11:12:24+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/wc-product-functions.php:1046
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1960): wc_get_price_excluding_tax(NULL)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/wc-fncs.php(315): WC_Cart->get_product_price(NULL)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(287): ql_woocommerce_ajax_add_to_cart('')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Applications/MAMP/htdocs/tristel/site/wp-admin/admin-ajax.php(176): do_action('wp_ajax_ql_wooc...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/wc-product-functions.php on line 1046
+
+2021-02-01T11:13:13+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/wc-product-functions.php:1046
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1960): wc_get_price_excluding_tax(NULL)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/wc-fncs.php(316): WC_Cart->get_product_price(NULL)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(287): ql_woocommerce_ajax_add_to_cart('')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Applications/MAMP/htdocs/tristel/site/wp-admin/admin-ajax.php(176): do_action('wp_ajax_ql_wooc...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/wc-product-functions.php on line 1046
+
+2021-02-01T11:13:37+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/wc-product-functions.php:1046
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1960): wc_get_price_excluding_tax(NULL)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/wc-fncs.php(316): WC_Cart->get_product_price(NULL)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(287): ql_woocommerce_ajax_add_to_cart('')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Applications/MAMP/htdocs/tristel/site/wp-admin/admin-ajax.php(191): do_action('wp_ajax_nopriv_...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/wc-product-functions.php on line 1046
+
+2021-02-01T11:17:48+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/wc-product-functions.php:1046
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1960): wc_get_price_excluding_tax(NULL)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/wc-fncs.php(316): WC_Cart->get_product_price(NULL)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(287): ql_woocommerce_ajax_add_to_cart('')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Applications/MAMP/htdocs/tristel/site/wp-admin/admin-ajax.php(176): do_action('wp_ajax_ql_wooc...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/wc-product-functions.php on line 1046
+
+2021-02-01T11:20:26+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Call to a member function get_price() on null in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/wc-product-functions.php:1046
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1960): wc_get_price_excluding_tax(NULL)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/0a8f5be56a8b724939d6743bcf2e987e17b4fdac.php(9): WC_Cart->get_product_price(NULL)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/PhpEngine.php(43): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/ in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/wc-product-functions.php on line 1046
+
+2021-02-01T11:25:30+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Call to a member function get_price() on null in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1977
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/0a8f5be56a8b724939d6743bcf2e987e17b4fdac.php(10): WC_Cart->get_product_subtotal(NULL, 1)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/PhpEngine.php(43): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illumin in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1977
+
+2021-02-01T11:53:22+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Call to a member function get_price() on null in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1977
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/0a8f5be56a8b724939d6743bcf2e987e17b4fdac.php(10): WC_Cart->get_product_subtotal(NULL, 1)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/PhpEngine.php(43): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illumin in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1977
+
+2021-02-01T11:54:10+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Call to a member function get_price() on null in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1977
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/0a8f5be56a8b724939d6743bcf2e987e17b4fdac.php(11): WC_Cart->get_product_subtotal(NULL, 1)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/PhpEngine.php(43): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illumin in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1977
+
+2021-02-01T14:07:10+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Call to a member function get_price() on null in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1977
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/0a8f5be56a8b724939d6743bcf2e987e17b4fdac.php(11): WC_Cart->get_product_subtotal(NULL, 1)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/PhpEngine.php(43): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illumin in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1977
+
+2021-02-01T14:07:42+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Call to a member function get_price() on null in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/wc-product-functions.php:1046
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1960): wc_get_price_excluding_tax(NULL)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/0a8f5be56a8b724939d6743bcf2e987e17b4fdac.php(22): WC_Cart->get_product_price(NULL)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/PhpEngine.php(43): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get(' in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/wc-product-functions.php on line 1046
+
+2021-02-01T14:34:22+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/wc-product-functions.php:1046
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1960): wc_get_price_excluding_tax(NULL)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/wc-fncs.php(316): WC_Cart->get_product_price(NULL)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(287): ql_woocommerce_ajax_add_to_cart('')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Applications/MAMP/htdocs/tristel/site/wp-admin/admin-ajax.php(176): do_action('wp_ajax_ql_wooc...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/wc-product-functions.php on line 1046
+
+2021-02-01T15:21:12+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Call to a member function get_price() on null in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/wc-product-functions.php:1046
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1960): wc_get_price_excluding_tax(NULL)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/0a8f5be56a8b724939d6743bcf2e987e17b4fdac.php(22): WC_Cart->get_product_price(NULL)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/PhpEngine.php(43): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get(' in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/wc-product-functions.php on line 1046
+
+2021-02-01T15:21:35+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Call to a member function get_price() on null in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/class-wc-cart.php:1977
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/0a8f5be56a8b724939d6743bcf2e987e17b4fdac.php(23): WC_Cart->get_product_subtotal(NULL, 4)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/PhpEngine.php(43): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illumin in /Applications/MAMP/htdocs/tristel/site/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1977
+
+2021-02-01T15:22:03+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Call to a member function get_permalink() on null in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/0a8f5be56a8b724939d6743bcf2e987e17b4fdac.php:24
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/PhpEngine.php(43): include()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/Applications/M...', Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(125): Illuminate\View\View->getContents()
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/View.php(90): Illuminate\View\View->render in /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/0a8f5be56a8b724939d6743bcf2e987e17b4fdac.php on line 24
+
+2021-02-01T19:59:43+00:00 CRITICAL Uncaught InvalidArgumentException: View [partials.woocommerce.modal-cart] not found. in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/FileViewFinder.php:137
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('partials.woocom...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Factory.php(128): Illuminate\View\FileViewFinder->find('partials.woocom...')
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c94ab684643e14d7613ae858d5c64a894fdb35f0.php(15): Illuminate\View\Factory->make('partials.woocom...', Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/PhpEngine.php(43): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminat in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/FileViewFinder.php on line 137
+
+2021-02-01T19:59:46+00:00 CRITICAL Uncaught InvalidArgumentException: View [partials.woocommerce.modal-cart] not found. in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/FileViewFinder.php:137
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('partials.woocom...', Array)
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Factory.php(128): Illuminate\View\FileViewFinder->find('partials.woocom...')
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/uploads/cache/c94ab684643e14d7613ae858d5c64a894fdb35f0.php(15): Illuminate\View\Factory->make('partials.woocom...', Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/PhpEngine.php(43): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminat in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/view/FileViewFinder.php on line 137
+

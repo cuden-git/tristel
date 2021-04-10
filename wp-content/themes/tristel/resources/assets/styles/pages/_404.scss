@@ -1,0 +1,8 @@
+$selector: ".error404";
+
+#{$selector} {
+  .main {
+    padding-top: $page-content-top-padding;
+    min-height: rem(600);
+  }
+}

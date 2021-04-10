@@ -1,0 +1,108 @@
+$selector: ".newsletter-signup";
+
+#{$selector} {
+  background-color: $brand-black1;
+  color: $white;
+  padding-top: rem(25);
+  padding-bottom: rem(25);
+
+  &__label {
+    display: flex;
+    flex-direction: column;
+    padding-right: rem(40);
+
+    @include media-bp-md {
+      align-items: flex-end;
+    }
+  }
+
+  &__title {
+    font-size: rem(21);
+    margin-bottom: rem(10);
+
+    @include media-bp-md {
+      font-size: rem(24);
+    }
+  }
+
+  &__list {
+    @extend %no-bullet;
+
+    display: flex;
+    font-size: rem(14);
+
+    @include media-bp-mobile {
+      margin-bottom: rem(15);
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      font-size: rem(12);
+      color: $brand-grey-md;
+
+      @include media-bp-md {
+        padding-left: rem(10);
+
+        &:first-child {
+          padding-left: 0;
+        }
+      }
+
+      i {
+        padding-right: rem(5);
+      }
+    }
+  }
+
+  .btn {
+    @include media-bp-mobile {
+      width: 100%;
+    }
+  }
+}
+
+$selector: ".signup-modal";
+
+#{$selector} {
+  $gap: rem(16);
+
+  &__form {
+    padding-top: rem(50);
+
+    fieldset {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: rem(20);
+    }
+
+    label {
+      width: 100%;
+      margin-bottom: $gap;
+
+      @include media-bp-md {
+        width: calc(50% - #{$gap} / 2);
+      }
+    }
+
+    &-label {
+      width: 100%;
+      margin-bottom: $gap;
+    }
+
+    input {
+      &[type=email],
+      &[type=text] {
+        width: 100%;
+        margin-top: rem(7);
+      }
+
+      &[type=checkbox] {
+        margin-right: rem(10);
+      }
+    }
+  }
+}

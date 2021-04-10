@@ -1,0 +1,16 @@
+$selector: ".breadcrumbs";
+
+#{$selector} {
+  background-color: $brand-grey-md;
+  padding: rem(10) 0;
+
+  ul {
+    display: flex;
+
+    @extend %no-bullet;
+  }
+
+  a {
+    color: $brand-black1;
+  }
+}

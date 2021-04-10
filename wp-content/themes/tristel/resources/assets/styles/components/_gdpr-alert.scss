@@ -1,0 +1,29 @@
+$selector: ".gdpr-alert";
+
+#{$selector} {
+  position: fixed;
+  font-size: rem(14);
+  font-weight: bold;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: $brand-green;
+  z-index: 1;
+  padding: rem(10) 0;
+  transition: transform 0.3s;
+  transform: translateY(100%);
+
+  &--active {
+    transform: translateY(0);
+  }
+
+  > .container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__close {
+    cursor: pointer;
+    margin-left: rem(15);
+  }
+}

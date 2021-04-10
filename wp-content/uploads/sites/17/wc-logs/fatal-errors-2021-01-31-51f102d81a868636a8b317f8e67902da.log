@@ -1,0 +1,11 @@
+2021-01-31T18:44:17+00:00 CRITICAL syntax error, unexpected '*', expecting end of file in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/wc-fncs.php on line 377
+
+2021-01-31T20:31:19+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to ql_woocommerce_ajax_add_to_cart() must be an instance of WP_REST_Request, string given, called in /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php on line 287 and defined in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/wc-fncs.php:283
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(287): ql_woocommerce_ajax_add_to_cart('')
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-admin/admin-ajax.php(191): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/wc-fncs.php on line 283
+

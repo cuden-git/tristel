@@ -1,0 +1,190 @@
+2021-03-15T19:33:31+00:00 CRITICAL Uncaught Error: Call to undefined function App\Controllers\Partials\get_field() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php:11
+Stack trace:
+#0 [internal function]: App\Controllers\PageContact->__construct()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(800): ReflectionClass->newInstanceArgs(Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(646): Illuminate\Container\Container->build('App\\Controllers...')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(601): Illuminate\Container\Container->resolve('App\\Controllers...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/soberwp/controller/controller.php(49): Illuminate\Container\Container->make('App\\Controllers...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php on line 11
+
+2021-03-15T19:33:32+00:00 CRITICAL Uncaught Error: Call to undefined function App\Controllers\Partials\get_field() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php:11
+Stack trace:
+#0 [internal function]: App\Controllers\PageContact->__construct()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(800): ReflectionClass->newInstanceArgs(Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(646): Illuminate\Container\Container->build('App\\Controllers...')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(601): Illuminate\Container\Container->resolve('App\\Controllers...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/soberwp/controller/controller.php(49): Illuminate\Container\Container->make('App\\Controllers...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php on line 11
+
+2021-03-15T19:33:34+00:00 CRITICAL Uncaught Error: Call to undefined function App\Controllers\Partials\get_field() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php:11
+Stack trace:
+#0 [internal function]: App\Controllers\PageContact->__construct()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(800): ReflectionClass->newInstanceArgs(Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(646): Illuminate\Container\Container->build('App\\Controllers...')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(601): Illuminate\Container\Container->resolve('App\\Controllers...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/soberwp/controller/controller.php(49): Illuminate\Container\Container->make('App\\Controllers...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php on line 11
+
+2021-03-15T19:33:36+00:00 CRITICAL Uncaught Error: Call to undefined function App\Controllers\Partials\get_field() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php:11
+Stack trace:
+#0 [internal function]: App\Controllers\PageContact->__construct()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(800): ReflectionClass->newInstanceArgs(Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(646): Illuminate\Container\Container->build('App\\Controllers...')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(601): Illuminate\Container\Container->resolve('App\\Controllers...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/soberwp/controller/controller.php(49): Illuminate\Container\Container->make('App\\Controllers...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php on line 11
+
+2021-03-15T19:33:38+00:00 CRITICAL Uncaught Error: Call to undefined function App\Controllers\Partials\get_field() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php:11
+Stack trace:
+#0 [internal function]: App\Controllers\PageContact->__construct()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(800): ReflectionClass->newInstanceArgs(Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(646): Illuminate\Container\Container->build('App\\Controllers...')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(601): Illuminate\Container\Container->resolve('App\\Controllers...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/soberwp/controller/controller.php(49): Illuminate\Container\Container->make('App\\Controllers...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php on line 11
+
+2021-03-15T19:36:36+00:00 CRITICAL Uncaught Error: Call to undefined function App\Controllers\Partials\get_field() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php:11
+Stack trace:
+#0 [internal function]: App\Controllers\PageContact->__construct()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(800): ReflectionClass->newInstanceArgs(Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(646): Illuminate\Container\Container->build('App\\Controllers...')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(601): Illuminate\Container\Container->resolve('App\\Controllers...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/soberwp/controller/controller.php(49): Illuminate\Container\Container->make('App\\Controllers...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php on line 11
+
+2021-03-15T19:36:36+00:00 CRITICAL Uncaught Error: Call to undefined function App\Controllers\Partials\get_field() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php:11
+Stack trace:
+#0 [internal function]: App\Controllers\PageContact->__construct()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(800): ReflectionClass->newInstanceArgs(Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(646): Illuminate\Container\Container->build('App\\Controllers...')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(601): Illuminate\Container\Container->resolve('App\\Controllers...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/soberwp/controller/controller.php(49): Illuminate\Container\Container->make('App\\Controllers...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php on line 11
+
+2021-03-15T19:36:38+00:00 CRITICAL Uncaught Error: Call to undefined function App\Controllers\Partials\get_field() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php:11
+Stack trace:
+#0 [internal function]: App\Controllers\PageContact->__construct()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(800): ReflectionClass->newInstanceArgs(Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(646): Illuminate\Container\Container->build('App\\Controllers...')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(601): Illuminate\Container\Container->resolve('App\\Controllers...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/soberwp/controller/controller.php(49): Illuminate\Container\Container->make('App\\Controllers...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php on line 11
+
+2021-03-15T19:36:38+00:00 CRITICAL Uncaught Error: Call to undefined function App\Controllers\Partials\get_field() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php:11
+Stack trace:
+#0 [internal function]: App\Controllers\PageContact->__construct()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(800): ReflectionClass->newInstanceArgs(Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(646): Illuminate\Container\Container->build('App\\Controllers...')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(601): Illuminate\Container\Container->resolve('App\\Controllers...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/soberwp/controller/controller.php(49): Illuminate\Container\Container->make('App\\Controllers...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php on line 11
+
+2021-03-15T19:36:39+00:00 CRITICAL Uncaught Error: Call to undefined function App\Controllers\Partials\get_field() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php:11
+Stack trace:
+#0 [internal function]: App\Controllers\PageContact->__construct()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(800): ReflectionClass->newInstanceArgs(Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(646): Illuminate\Container\Container->build('App\\Controllers...')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(601): Illuminate\Container\Container->resolve('App\\Controllers...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/soberwp/controller/controller.php(49): Illuminate\Container\Container->make('App\\Controllers...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php on line 11
+
+2021-03-15T19:36:52+00:00 CRITICAL Uncaught Error: Call to undefined function App\Controllers\Partials\get_field() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php:11
+Stack trace:
+#0 [internal function]: App\Controllers\PageContact->__construct()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(800): ReflectionClass->newInstanceArgs(Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(646): Illuminate\Container\Container->build('App\\Controllers...')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(601): Illuminate\Container\Container->resolve('App\\Controllers...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/soberwp/controller/controller.php(49): Illuminate\Container\Container->make('App\\Controllers...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php on line 11
+
+2021-03-15T19:36:53+00:00 CRITICAL Uncaught Error: Call to undefined function App\Controllers\Partials\get_field() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php:11
+Stack trace:
+#0 [internal function]: App\Controllers\PageContact->__construct()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(800): ReflectionClass->newInstanceArgs(Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(646): Illuminate\Container\Container->build('App\\Controllers...')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(601): Illuminate\Container\Container->resolve('App\\Controllers...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/soberwp/controller/controller.php(49): Illuminate\Container\Container->make('App\\Controllers...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php on line 11
+
+2021-03-15T19:36:55+00:00 CRITICAL Uncaught Error: Call to undefined function App\Controllers\Partials\get_field() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php:11
+Stack trace:
+#0 [internal function]: App\Controllers\PageContact->__construct()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(800): ReflectionClass->newInstanceArgs(Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(646): Illuminate\Container\Container->build('App\\Controllers...')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(601): Illuminate\Container\Container->resolve('App\\Controllers...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/soberwp/controller/controller.php(49): Illuminate\Container\Container->make('App\\Controllers...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php on line 11
+
+2021-03-15T19:36:56+00:00 CRITICAL Uncaught Error: Call to undefined function App\Controllers\Partials\get_field() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php:11
+Stack trace:
+#0 [internal function]: App\Controllers\PageContact->__construct()
+#1 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(800): ReflectionClass->newInstanceArgs(Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(646): Illuminate\Container\Container->build('App\\Controllers...')
+#3 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/illuminate/container/Container.php(601): Illuminate\Container\Container->resolve('App\\Controllers...', Array)
+#4 /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/vendor/soberwp/controller/controller.php(49): Illuminate\Container\Container->make('App\\Controllers...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/Controllers/Partials/Flexible.php on line 11
+
+2021-03-15T19:38:20+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(287): {closure}('')
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(546): do_action('init')
+#4 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-load.php(37): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/tristel/site/wp-blog-header.php(13): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/index.php(17): require('/Applications/M...')
+#8 {main}
+  thrown in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 280
+
+2021-03-15T19:38:20+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(287): {closure}('')
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(546): do_action('init')
+#4 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-load.php(37): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/tristel/site/wp-cron.php(44): require_once('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 280
+
+2021-03-15T19:38:21+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(287): {closure}('')
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(546): do_action('init')
+#4 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-load.php(37): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/tristel/site/wp-blog-header.php(13): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/index.php(17): require('/Applications/M...')
+#8 {main}
+  thrown in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 280
+
+2021-03-15T19:38:22+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(287): {closure}('')
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(546): do_action('init')
+#4 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-load.php(37): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/tristel/site/wp-blog-header.php(13): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/index.php(17): require('/Applications/M...')
+#8 {main}
+  thrown in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 280
+
+2021-03-15T19:38:23+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php:280
+Stack trace:
+#0 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(287): {closure}('')
+#1 /Applications/MAMP/htdocs/tristel/site/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/tristel/site/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/tristel/site/wp-settings.php(546): do_action('init')
+#4 /Applications/MAMP/htdocs/tristel/site/wp-config.php(104): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/tristel/site/wp-load.php(37): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/tristel/site/wp-blog-header.php(13): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/tristel/site/index.php(17): require('/Applications/M...')
+#8 {main}
+  thrown in /Applications/MAMP/htdocs/tristel/site/wp-content/themes/tristel/app/custom-fncs.php on line 280
+
